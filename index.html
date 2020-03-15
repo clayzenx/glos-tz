@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bootstrap-template</title>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|PT+Sans:400,400i,700&display=swap&subset=cyrillic"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="slick/slick.css" />
+    <link rel="stylesheet" href="slick/slick-theme.css" />
+
+    <script src="https://kit.fontawesome.com/b6516f28d0.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+
+  <body>
+    <!-- header -->
+    <header class="container-fluid" id="main-header">
+      <div class="row justify-content-center no-gutters">
+        <div class="col-6 col-lg-6 col-xl-4" id="company-logo">
+          <div id="company-logo-image"></div>
+          <div id="heading-container">
+            <h1 id="company-logo-heading">
+              Название <br />
+              компании
+            </h1>
+            <p id="company-logo-description">самая клевая компания</p>
+          </div>
+        </div>
+        <!-- feedback -->
+        <div class="d-none d-xl-block align-self-center col-xl-4" id="company-contacts">
+          <p id="company-contacts-number">
+            <a href="tel:+74997777777">+7(499) 777-77-77</a>
+          </p>
+          <p id="company-contacts-number">
+            <a href="tel:+74997777777">+7(499) 777-77-77</a>
+          </p>
+          <div id="company-contacts-button">
+            <p id="company-contacts-button-text">Обратная связь</p>
+          </div>
+        </div>
+        <!--  -->
+
+        <div class="d-xl-none col-2 align-self-center icon">
+          <img id="feedback-mobile-button" src="img/phone.png" alt="" srcset="" />
+        </div>
+        <div class="d-xl-none col-2 align-self-center icon">
+          <img src="img/menu.png" alt="" srcset="" />
+        </div>
+      </div>
+    </header>
+    <!--  -->
+    <!-- menu -->
+    <div class="container-fluid" id="navigation-menu">
+      <div class="row justify-content-center">
+        <nav class="d-none d-md-block col-md-12 col-xl-10" id="main-menu-container">
+          <ul id="main-menu">
+            <li id="main-menu-item"><a href="#">Главная</a></li>
+            <li id="main-menu-item"><a href="#">Каталог</a></li>
+            <li id="main-menu-item"><a href="#">Доставка и оплата</a></li>
+            <li id="main-menu-item"><a href="#">Прайс-лист</a></li>
+            <li id="main-menu-item"><a href="#">Контакты</a></li>
+          </ul>
+        </n>
+      </div>
+    </div>
+    <!--  -->
+    <!-- slider -->
+    <div id="slider-wrapper">
+      <div id="slider">
+        <div class="slider-content">
+          <img src="img/slid1.png" alt="" srcset="">
+        </div>
+        <div class="slider-content">
+          <img src="img/slide2.png" alt="" srcset="">
+        </div>
+      </div>
+      <div class="slider-arrows"></div>
+    </div>
+    <!--  -->
+    
+    <!-- breadcrumbs -->
+    <div class="container-fluid" id="breadcrumbs-container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-xl-8">
+            <ul id="breadcrumbs-line">
+              <li id="breadcrumbs-line-item">
+                <a href="#">
+                  Главная /
+                </a>
+              </li>
+              <li id="breadcrumbs-line-item">
+                <a href="#">
+                  Каталог /
+                </a>
+              </li>
+              <li id="breadcrumbs-line-item">
+                <a href="#">
+                  Бытовая техника 
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </div>
+    <!--  -->
+    <!-- main content -->
+    <div class="container-fluid">
+      <div class="row justify-content-center" id="main-content-container">
+        <!-- product-menu -->
+        <nav class="d-none d-xl-block col-xl-2" id="product-navigation-container">
+          <ul id="product-navigation-menu">
+            <li class="product-navigation-item" id="autoes">
+              <a href="#">Автомобили</a>
+            </li>
+            <li class="product-navigation-item" id="appliances">
+              <a href="javascript:void(0);">Бытовая техника</a>
+              <ul class="submenu">
+                <li class="submenu-item">Микроволновки</li>
+                <li class="submenu-item">Холодильники</li>
+                <li class="submenu-item">Посудомоечные машины</li>
+                <li class="submenu-item">Чайники</li>
+              </ul>
+            </li>
+            <li class="product-navigation-item" id="mobile-devices">
+              <a href="#">Мобильная техника</a>
+            </li>
+            <li class="product-navigation-item" id="computers">
+              <a href="#">Компьютеры</a>
+            </li>
+            <li class="product-navigation-item" id="clothes">
+              <a href="#">Одежда</a>
+            </li>
+            <li class="product-navigation-item" id="apartaments">
+              <a href="#">Недвижемость</a>
+            </li>
+          </ul>
+        </nav>
+        <!--  -->
+        <!-- product-cards -->
+        <div class="col-12 col-lg-10 col-xl-6" id="product-cards-container">
+          <div class="product-cards-grid">
+            <div class="product-cards-grid-item" data-redirect="url1">
+              <img src="./img/card.png" alt="">
+              <p>Самый клевый чайник который надо купить</p>
+              <p class="price">1900</p>
+              <img class="basket" src="./img/basket.png" alt="">
+            </div>
+            <div class="product-cards-grid-item">
+              <img src="./img/card.png" alt="">
+              <p>Самый клевый чайник который надо купить</p>
+              <p class="price">1900</p>
+              <img class="basket" src="./img/basket.png" alt="">
+            </div>
+            <div class="product-cards-grid-item">
+              <img src="./img/card.png" alt="">
+              <p>Самый клевый чайник который надо купить</p>
+              <p class="price">1900</p>
+              <img class="basket" src="./img/basket.png" alt="">
+            </div>
+            <div class="product-cards-grid-item">
+              <img src="./img/card.png" alt="">
+              <p>Самый клевый чайник который надо купить</p>
+              <p class="price">1900</p>
+              <img class="basket" src="./img/basket.png" alt="">
+            </div>
+            <div class="product-cards-grid-item">
+              <img src="./img/card.png" alt="">
+              <p>Самый клевый чайник который надо купить</p>
+              <p class="price">1900</p>
+              <img class="basket" src="./img/basket.png" alt="">
+            </div>
+          </div>
+          <!--  -->
+          <!-- pagenation -->
+          <div class="container-fluid">
+            <div class="row justify-content-center">
+              <div class="col-auto" id="page-changer-container">
+                <ul class="pagenation">
+                  <li class="pagenation-item">1</li>
+                  <li class="pagenation-item">2</li>
+                  <li class="pagenation-item active">3</li>
+                  <li class="pagenation-item">4</li>
+                  <li class="pagenation-item">5</li>
+                  <li class="pagenation-item">6</li>
+                  <li class="pagenation-item">7</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+          <!-- prefooter text -->
+          <div class="container-fluid">
+            <div class="row justify-content-center">
+              <div class="col-12 col-lg-6 prefooter">
+                <p class="prefooter-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu tellus gravida, fringilla lorem ac, aliquet felis. Aliquam auctor, arcu id consequat accumsan, eros ipsum eleifend orci, nec ultrices nulla dui a lectus. Sed vitae metus in lorem sollicitudin lacinia. Praesent iaculis laoreet turpis, eget pulvinar leo consectetur eget. Morbi blandit tempor tellus ut aliquet. Aliquam pretium ex vel risus aliquet, id mollis velit dignissim. Proin ornare lacus ac ligula sodales dictum nec ac enim. Mauris nisi tellus, finibus id diam nec, feugiat maximus orci. Sed at varius felis. t</p>
+              </div>
+              <div class="col-12 col-lg-6 prefooter">
+                <p class="prefooter-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu tellus gravida, fringilla lorem ac, aliquet felis. Aliquam auctor, arcu id consequat accumsan, eros ipsum eleifend orci, nec ultrices nulla dui a lectus. Sed vitae metus in lorem sollicitudin lacinia. Praesent iaculis laoreet turpis, eget pulvinar leo consectetur eget. Morbi blandit tempor tellus ut aliquet. Aliquam pretium ex vel risus aliquet, id mollis velit dignissim. Proin ornare lacus ac ligula sodales dictum nec ac enim. Mauris nisi tellus, finibus id diam nec, feugiat maximus orci. Sed at varius felis. t</p>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+        </div>     
+      </div>
+    </div>
+    <!-- footer -->
+    <footer class="container-fluid" id="footer-container">
+      <div class="row justify-content-center">
+        <div class="col-8 col-md-4">© 2012–2013 ЗАО «Компания» 
+          info@name.ru
+        </div>
+        <div class="col-8 col-md-2">
+          <ul id="footer-menu">
+            <li id="footer-menu-item">Главная</li>
+            <li id="footer-menu-item">Каталог</li>
+            <li id="footer-menu-item">Доставка и оплата</li>
+            <li id="footer-menu-item">Прайс-лист</li>
+            <li id="footer-menu-item">Контакты</li>
+          </ul>
+        </div>
+        <div class="col-8 col-md-3">
+          <img class="company-logo" src="img/company_17584.png" alt="">
+          <p>Разработка сайта — компания «ГЛОС»</p>
+        </div>
+      </div>
+    </footer>
+    <!--  -->
+
+    <!-- feedback -->
+    <div id="background-feedback">
+      <div id="feedback-container">
+        <img src="img/shape.png" alt="" class="shape">
+        <h3 class="feadback-header">Обратная связь</h3>
+        <label for="name">Ваше имя*</label><br>
+        <input type="text" name="name" id=""><br>
+        <label for="tel">Телефон*</label><br>
+        <input type="text" name="tel" id=""><br>
+        <label for="email">Email*</label><br>
+        <input type="text" name="email" id=""><br>
+        <label for="message">Сообщение</label><br>
+        <textarea name="message" id="" cols="20" rows="5"></textarea><br>
+        <input class="btnsub" type="submit" value="Отправить">
+      </div>
+    </div>
+    
+  </body>
+  
+  <!-- bootstarp src -->
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"
+  ></script>
+  <!-- slick -->
+  <!-- <script src="slick/slick.js"></script> -->
+  <script type="text/javascript" src="./jquery/jquery.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+  <!-- index -->
+  <script src="js/index.js"></script>
+</html>
